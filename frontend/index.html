@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+    <title>web-socket-implementaion</title>
+</head>
+<body>
+    <div class="center">
+        <h1>Web Socket Implementaion!</h1>
+        <h3 id="chat-header">CHAT GROUP</h3>
+        <form id="chatroom-selection">
+            <input type="text" placeholder="change chatroom" name="chatroom" id="chatroom">
+            <input type="submit" value="change chatroom">
+        </form>
+        </br>
+        <textarea name="chatmessages" id="chatmessages" cols="50" rows="5" class="messagearea" readonly
+            placeholder="Welcome to chatroom"></textarea>
+        <br>
+
+        <form id="chatroom-messages">
+            <input type="text" placeholder="message" name="message" id="message">
+            <input type="submit" value="send message">
+        </form>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
