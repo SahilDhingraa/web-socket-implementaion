@@ -11,9 +11,18 @@
         rel="stylesheet">
     <title>web-socket-implementaion</title>
 </head>
+
 <body>
     <div class="center">
         <h1>Web Socket Implementaion!</h1>
+        <h3 id="connection-header">connected to websocket: false 😶‍🌫️</h3>
+        <div style="margin-top: 10px;">
+            <form id="login-form">
+                <input type="text" name="username" placeholder="username" id="username">
+                <input type="password" name="password" placeholder="password" id="password">
+                <input type="submit" value="login">
+            </form>
+        </div>
         <h3 id="chat-header">CHAT GROUP</h3>
         <form id="chatroom-selection">
             <input type="text" placeholder="change chatroom" name="chatroom" id="chatroom">
